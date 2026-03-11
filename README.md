@@ -126,7 +126,7 @@ check the **Response Headers** panel.
 
 ---
 
-## Checkpoint 2 — Cache Control
+## Checkpoint 2 — Cache Control (I am on this step)
 
 ### Goal
 Apply appropriate caching strategies: aggressive caching for fingerprinted assets,
