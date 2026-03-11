@@ -80,7 +80,18 @@ curl -I http://localhost:8080/
 **Expected:** `200 OK`, no special headers, no compression.
 
 ### 0.1 - Reflection Question
-> What headers does nginx send by default? Are any of them surprising?
+> What headers does nginx send by default? Are any of them surprising? (Server, Date, etc. output of above curl command)
+
+```HTTP/1.1 200 OK
+Server: nginx/1.29.5
+Date: Wed, 11 Mar 2026 18:30:01 GMT
+Content-Type: text/html
+Content-Length: 19820
+Last-Modified: Mon, 09 Mar 2026 18:38:20 GMT
+Connection: keep-alive
+ETag: "69af139c-4d6c"
+Accept-Ranges: bytes
+```
 
 ---
 
